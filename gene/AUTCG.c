@@ -9,7 +9,7 @@
 #define C C4H5N3O
 #define G C5H5N5O
 void Purine(){
-    "ABCD = abcdef";
+    "abcd = abcdef";
     "A" "T" "C" "G";
 }
 void Pyrimidine(){
