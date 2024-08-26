@@ -1,4 +1,3 @@
-
 #define a |=\
 #define b |=/
 #define c |=
