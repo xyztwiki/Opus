@@ -1,4 +1,4 @@
-#include "../letter/abcdefgh.ts"
+
 #define a |=\
 #define b |=/
 #define c |=
