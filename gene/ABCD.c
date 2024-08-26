@@ -1,7 +1,7 @@
-#define A 2|_|1|-|
-#define B 3|_|1|-|
-#define C 4|_|2|-|
-#define D 1|\|0|-|
-void ABCD(){
-  "A + B -> C + D";
+#define a 2|_|1|-|
+#define b 3|_|1|-|
+#define c 4|_|2|-|
+#define d 1|\|0|-|
+void abcd(){
+  "a + b -> c + d";
 }
