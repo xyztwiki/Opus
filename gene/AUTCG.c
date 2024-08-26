@@ -1,7 +1,7 @@
 #include "element.vb"
 #include "hexagon.c"
 #include "pentagon.c"
-#include "ABCD.c"
+#include "abcd.c"
 #include "abcdef.c"
 #define A C5H5O5
 #define U C5H5O5O
