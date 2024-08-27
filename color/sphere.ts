@@ -10,22 +10,22 @@ void function SpherePoint(r: number, theta: number, fai: number):
     let T = r * Math.sin(theta)
     return { x, y, z, T}
 }
-void function xyz(){
+export async function xyz(){
     let x = Red
     let y = Green
     let z = Blue
     let T = anti
     return  [x, y, z,T]
 }
-void function SphereRadius(x:number, y:number, z:number):[SphereRadiusx:number, SphereRadiusy:number, SphereRadiusz:number] {
+await function SphereRadius(x:number, y:number, z:number):[SphereRadiusx:number, SphereRadiusy:number, SphereRadiusz:number] {
     const SphereRadiusx = Math.sin(x) + Math.cos(y) 
     const SphereRadiusy = Math.sin(y) + Math.cos(x) 
     const SphereRadiusz = Math.sin(z) + Math.cos(y)
     return [SphereRadiusx, SphereRadiusy, SphereRadiusz]
 }
-void function RGB(){
-    this.x = Red
-    this.y = Green
-    this.z = Blue
-    this.t = anti
+function RGB(){
+    this.x = new Red
+    this.y = new Green
+    this.z = new Blue
+    this.t = new anti
 }
