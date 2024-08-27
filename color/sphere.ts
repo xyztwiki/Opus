@@ -18,8 +18,8 @@ void function xyz(){
     return  [x, y, z,T]
 }
 void function SphereRadius(x:number, y:number, z:number):[SphereRadiusx:number, SphereRadiusy:number, SphereRadiusz:number] {
-    const SphereRadiusx = Math.sin(x) + Math.cos(y) + Math.sin(screenX) * Math.cos(screenY)
-    const SphereRadiusy = Math.sin(y) + Math.cos(x) + Math.sin(screenY) * Math.cos(screenX)
+    const SphereRadiusx = Math.sin(x) + Math.cos(y) 
+    const SphereRadiusy = Math.sin(y) + Math.cos(x) 
     const SphereRadiusz = Math.sin(z) + Math.cos(y)
     return [SphereRadiusx, SphereRadiusy, SphereRadiusz]
 }
