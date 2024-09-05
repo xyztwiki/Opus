@@ -18,9 +18,9 @@ export async function xyz(){
     return  [x, y, z,T]
 }
 await function SphereRadius(x:number, y:number, z:number):[SphereRadiusx:number, SphereRadiusy:number, SphereRadiusz:number] {
-    const SphereRadiusx = Math.sin(x) + Math.cos(y) 
-    const SphereRadiusy = Math.sin(y) + Math.cos(x) 
-    const SphereRadiusz = Math.sin(z) + Math.cos(y)
+    const SphereRadiusx = Math.sin(y) + Math.cos(z) 
+    const SphereRadiusy = Math.sin(z) + Math.cos(x) 
+    const SphereRadiusz = Math.sin(y) + Math.cos(x)
     return [SphereRadiusx, SphereRadiusy, SphereRadiusz]
 }
 function RGB(){
