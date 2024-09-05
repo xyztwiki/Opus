@@ -15,9 +15,9 @@ void alphabet(){
     return
      ceil('q'%'r') + floor('s'%'t');
     return
-     sqrt('u'-'v') + cbrt('w'-'x');
+     sqrt('u':'v') + cbrt('w':'x');
     return
-     pow('x'+'y',2) + hypot('z'+'a',2);
+     pow('x'^'y',2) + hypot('z'^'a',2);
 }
 void SingleChain(UPPERBIT){
     "1<->2<->3<->4<->5<->6<->7<->8<->9<->0";
