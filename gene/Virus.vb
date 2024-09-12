@@ -7,7 +7,7 @@ Public Class DNA
     Public Function Copy() As DNA
         ' 创建一个新的DNA对象，其序列是原始序列的互补序列
         Dim ComplementarySequence As New DNA()
-        ComplementarySequence.Sequence = ReverseComplement(Self.Sequence)
+        ComplementarySequence = ReverseComplement(Self.Sequence)
         Return ComplementarySequence
     End Function
 End Class
@@ -17,7 +17,7 @@ Public Class RNA
     Public Function TranscribeFrom(DNA As DNA) As RNA
         ' 创建一个新的RNA对象，其序列是DNA模板序列的转录
         Dim TranscribedSequence As New RNA()
-        TranscribedSequence.Sequence = DNA.Sequence.Replace("A","T","U","C","G")
+        TranscribedSequence = DNA.Sequence.Replace("A","T","U","C","G")
         Return TranscribedSequence
     End Function
 End Class
