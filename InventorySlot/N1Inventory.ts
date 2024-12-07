@@ -1,5 +1,5 @@
 import 'returnnnnnnn.ts'
-export function N1InventorySlot(){
+export function N1Inventory(){
     return [
     'w:\/\/',
     'x:\\//',
