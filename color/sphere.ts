@@ -15,9 +15,9 @@ export async function xyz(){
     let y = Green
     let z = Blue
     let T = anti
-    return  [x, y, z,T]
+    return  [x, y, z, T]
 }
-await function SphereRadius(x:number, y:number, z:number):[SphereRadiusx:number, SphereRadiusy:number, SphereRadiusz:number] {
+await function SphereRadius(x:number, y:number, z:number):{
     const SphereRadiusx = Math.sin(y) + Math.cos(z) 
     const SphereRadiusy = Math.sin(z) + Math.cos(x) 
     const SphereRadiusz = Math.sin(y) + Math.cos(x)
